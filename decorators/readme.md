@@ -9,6 +9,8 @@ The '@' symbol is used to apply the decorator to a function. In this example, we
 Here is the code:
 
 ```python
+from time import time
+
 def performance(func):
     def wrapper_func(*args, **kwargs):
         t1 = time()
