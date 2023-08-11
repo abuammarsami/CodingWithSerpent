@@ -44,7 +44,8 @@ action_figure.attackInMain = "Dhishum Dhishum"
 Toy.play()  # Toy.play() is Class Method that's why we don't have to pass the class as parameter
 Toy.attack()
 action_figure.attack() # we can also call static method with object
-Toy.play_like_class_variable(Toy) # Toy.play_like_class_variable() is Static Method that's why we have to pass the class as parameter
+Toy.play_like_class_variable(Toy) # Toy.play_like_class_variable() is Static Method that's why we have to pass the
+# class as parameter
 print("\n===================***********========================\n")
 print(action_figure.attackInMain)
 print(action_figure.__str__())

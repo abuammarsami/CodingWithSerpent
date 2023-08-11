@@ -1,6 +1,6 @@
 # Given the below class:
 class Cat:
-    species = 'mammal'
+    species = "mammal"
 
     def __init__(self, name, age):
         self.name = name
@@ -24,7 +24,7 @@ print(f"The oldest cat is {oldest_cat(doraemon.age, tom.age, oggy.age)} years ol
 
 # Given the below class:
 class Cat:
-    species = 'mammal'
+    species = "mammal"
 
     def __init__(self, name, age):
         self.name = name
@@ -32,9 +32,9 @@ class Cat:
 
 
 # 1 Instantiate the Cat object with 3 cats
-cat_1 = Cat('boris', 10)
-cat_2 = Cat('meow', 7)
-cat_3 = Cat('cc', 2)
+cat_1 = Cat("boris", 10)
+cat_2 = Cat("meow", 7)
+cat_3 = Cat("cc", 2)
 
 
 # 2 Create a function that finds the oldest cat
@@ -45,4 +45,4 @@ def find_oldest_cat(cats):
 # 3 Print out: "The oldest cat is x years old.".
 # x will be the oldest cat age by using the function in #2
 oldest_cat = find_oldest_cat((cat_1, cat_2, cat_3))
-print(f'The oldest cat is {oldest_cat.age} years old.')
+print(f"The oldest cat is {oldest_cat.age} years old.")
