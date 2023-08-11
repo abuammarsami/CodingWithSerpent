@@ -10,6 +10,7 @@ Here is an example of a generator function:
 def make_list(num):
     for i in range(num):
         yield i * 2
-```
 
-In this example, 'make_list' is a generator function that yields the double of each number in the range from 0 to 'num'. When we iterate over the generator object returned by this function, we get each number in the sequence one by one.
+# Using the generator function
+for number in make_list(10):
+    print(number)
