@@ -18,4 +18,3 @@ except ValueError:
     print('Please enter a number')
 except ZeroDivisionError:
     print('Age cannot be zero')
-```
